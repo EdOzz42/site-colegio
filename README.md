@@ -1,2 +1,2 @@
 # site-colegio
-Site que est[a sendo desenvolvido no Col[egio Estadual do Paraná
+Site que está sendo desenvolvido no Col[egio Estadual do Paraná
