@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testint</title>
+
+    <style>
+        p {
+            border: solid black .5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Testing</h1>
+    </header>
+    <main>
+        <div class="box-text">
+            <p id="change-border">O meu trabalho em Cyber Punk 2077 foi muito divertido. Eu trabalhei com um time grande e talentoso, e tivemos a oportunidade de criar um jogo especial e diferente. O jogo é uma obra de ficção científica que explora temas atuais e importantes, e também tem uma historia imersiva e profunda. Foi uma experiência desafiadora, mas também muito gratificante, e eu estou muito orgulhoso do resultado final.</p>
+            <button onclick="changeBorder()">Mudar borda</button>
+            <button onclick="changeText()">Mudar Texto</button>
+        </div>
+
+        <div>
+
+        </div>
+    </main>
+    <footer></footer>
+
+    <script>
+        text = document.querySelector('#change-border')
+ 
+        function changeBorder() {
+            text.style.border = ".5rem dashed red"
+        }
+
+        function changeText() {
+            text.innerHTML = "O meu trabalho em The <strong>Matrix foi algo incrível</strong>. O filme marcou minha carreira e foi um dos projetos mais desafiantes e significantes. Eu trabalhei com um time incrível de atores e equipe técnica, e foi uma experiência incrível. O filme explora temas profundos e importantes, como o poder da realidade e a natureza da existência humana, e eu sinto que o filme teve um <strong>impacto indelével na cultura pop e no cinema.</strong>"
+        }
+    </Script>
+</body>
+</html>
